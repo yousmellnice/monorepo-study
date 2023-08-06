@@ -1,0 +1,2 @@
+# monorepo-study
+monorepo demo
