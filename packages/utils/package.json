@@ -1,0 +1,19 @@
+{
+  "name": "@packages/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~5.0.4"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.7"
+  }
+}
