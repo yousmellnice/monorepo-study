@@ -1,16 +1,39 @@
 {
-  "name": "@packages/eslint-plugin-custom",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "eslint-plugin-valid-windicss-sequence",
+  "version": "0.0.0",
+  "description": "限制 windicss 顺序的校验",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "yousmellnice-custom",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npm-run-all \"lint:*\"",
+    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "test": "mocha tests --recursive",
+    "update:eslint-docs": "eslint-doc-generator"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@packages/eslint-plugin-custom": "file:",
-    "eslint": "^8.39.0"
-  }
+    "babel-eslint": "^10.1.0",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-doc-generator": "^1.0.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^10.0.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "license": "ISC"
 }
