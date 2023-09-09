@@ -1,7 +1,12 @@
 "use strict";
 
 module.exports = {
-  parser: 'babel-eslint',
+  // parser: 'babel-eslint',
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    parser: 'babel-eslint',
+  },
   root: true,
   extends: [
     "eslint:recommended",

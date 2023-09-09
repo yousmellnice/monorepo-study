@@ -5,7 +5,7 @@ const ruleTester = new RuleTester({
     parserOptions: { ecmaVersion: 2015 }
 });
 
-ruleTester.run('start valid', rule, {
+ruleTester.run('http valid start', rule, {
     valid: [
         {
             code: "const test = 'https://test.com';"

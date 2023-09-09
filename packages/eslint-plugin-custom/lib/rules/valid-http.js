@@ -8,6 +8,7 @@ module.exports = {
         }
     },
     create: function(context) {
+        console.log(context, 'http');
         return {
             Literal: function handleRequires(node) {
                 if (

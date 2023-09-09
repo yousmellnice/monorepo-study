@@ -69,6 +69,7 @@ importers:
       mocha: ^10.0.0
       npm-run-all: ^4.1.5
       requireindex: ^1.2.0
+      vue-eslint-parser: ^9.3.1
     dependencies:
       babel-eslint: registry.npmmirror.com/babel-eslint/10.1.0_eslint@8.41.0
       requireindex: registry.npmmirror.com/requireindex/1.2.0
@@ -79,6 +80,7 @@ importers:
       eslint-plugin-node: registry.npmmirror.com/eslint-plugin-node/11.1.0_eslint@8.41.0
       mocha: registry.npmmirror.com/mocha/10.2.0
       npm-run-all: registry.npmmirror.com/npm-run-all/4.1.5
+      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.3.1_eslint@8.41.0
 
   packages/utils:
     specifiers:
@@ -1013,7 +1015,7 @@ packages:
       grapheme-splitter: registry.npmmirror.com/grapheme-splitter/1.0.4
       ignore: registry.npmmirror.com/ignore/5.2.4
       natural-compare-lite: registry.npmmirror.com/natural-compare-lite/1.4.0
-      semver: registry.npmmirror.com/semver/7.5.1
+      semver: registry.npmmirror.com/semver/7.5.4
       tsutils: registry.npmmirror.com/tsutils/3.21.0_typescript@5.0.4
       typescript: registry.npmmirror.com/typescript/5.0.4
     transitivePeerDependencies:
@@ -1425,7 +1427,7 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types/6.1.0
-      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.4.1
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.4.2
     dev: true
 
   registry.npmmirror.com/@vitejs/plugin-vue-jsx/3.0.1_vite@4.3.8+vue@3.3.4:
@@ -1675,7 +1677,7 @@ packages:
       eslint: registry.npmmirror.com/eslint/8.41.0
       eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.13.0_eslint@8.41.0
       typescript: registry.npmmirror.com/typescript/5.0.4
-      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.3.0_eslint@8.41.0
+      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.3.1_eslint@8.41.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1774,17 +1776,6 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: registry.npmmirror.com/acorn/8.10.0
-
-  registry.npmmirror.com/acorn-jsx/5.3.2_acorn@8.8.2:
-    resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz}
-    id: registry.npmmirror.com/acorn-jsx/5.3.2
-    name: acorn-jsx
-    version: 5.3.2
-    peerDependencies:
-      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-    dependencies:
-      acorn: registry.npmmirror.com/acorn/8.8.2
-    dev: true
 
   registry.npmmirror.com/acorn-walk/8.2.0:
     resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/acorn-walk/-/acorn-walk-8.2.0.tgz}
@@ -2693,7 +2684,7 @@ packages:
       nth-check: registry.npmmirror.com/nth-check/2.1.1
       postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser/6.0.13
       semver: registry.npmmirror.com/semver/7.5.1
-      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.3.0_eslint@8.41.0
+      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.3.1_eslint@8.41.0
       xml-name-validator: registry.npmmirror.com/xml-name-validator/4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -2707,16 +2698,6 @@ packages:
     dependencies:
       esrecurse: registry.npmmirror.com/esrecurse/4.3.0
       estraverse: registry.npmmirror.com/estraverse/4.3.0
-    dev: true
-
-  registry.npmmirror.com/eslint-scope/7.2.0:
-    resolution: {integrity: sha512-DYj5deGlHBfMt15J7rdtyKNq/Nqlv5KfU4iodrQ019XESsRnwXH9KAE0y3cwtUHDo2ob7CypAnCqefh6vioWRw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-scope/-/eslint-scope-7.2.0.tgz}
-    name: eslint-scope
-    version: 7.2.0
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dependencies:
-      esrecurse: registry.npmmirror.com/esrecurse/4.3.0
-      estraverse: registry.npmmirror.com/estraverse/5.3.0
     dev: true
 
   registry.npmmirror.com/eslint-scope/7.2.2:
@@ -2761,13 +2742,6 @@ packages:
     name: eslint-visitor-keys
     version: 2.1.0
     engines: {node: '>=10'}
-    dev: true
-
-  registry.npmmirror.com/eslint-visitor-keys/3.4.1:
-    resolution: {integrity: sha512-pZnmmLwYzf+kWaM/Qgrvpen51upAktaaiI01nsJD/Yr3lMOdNtq0cxkrrg16w64VtisN6okbs7Q8AfGqj4c9fA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.1.tgz}
-    name: eslint-visitor-keys
-    version: 3.4.1
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   registry.npmmirror.com/eslint-visitor-keys/3.4.2:
@@ -2824,17 +2798,6 @@ packages:
       text-table: registry.npmmirror.com/text-table/0.2.0
     transitivePeerDependencies:
       - supports-color
-
-  registry.npmmirror.com/espree/9.5.2:
-    resolution: {integrity: sha512-7OASN1Wma5fum5SrNhFMAMJxOUAbhyfQ8dQ//PJaJbNw0URTPWqIghHWt1MmAANKhHZIYOHruW4Kw4ruUWOdGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/espree/-/espree-9.5.2.tgz}
-    name: espree
-    version: 9.5.2
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dependencies:
-      acorn: registry.npmmirror.com/acorn/8.8.2
-      acorn-jsx: registry.npmmirror.com/acorn-jsx/5.3.2_acorn@8.8.2
-      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.4.2
-    dev: true
 
   registry.npmmirror.com/espree/9.6.1:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/espree/-/espree-9.6.1.tgz}
@@ -5229,20 +5192,20 @@ packages:
       vue: registry.npmmirror.com/vue/3.3.4
     dev: false
 
-  registry.npmmirror.com/vue-eslint-parser/9.3.0_eslint@8.41.0:
-    resolution: {integrity: sha512-48IxT9d0+wArT1+3wNIy0tascRoywqSUe2E1YalIC1L8jsUGe5aJQItWfRok7DVFGz3UYvzEI7n5wiTXsCMAcQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.0.tgz}
-    id: registry.npmmirror.com/vue-eslint-parser/9.3.0
+  registry.npmmirror.com/vue-eslint-parser/9.3.1_eslint@8.41.0:
+    resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.1.tgz}
+    id: registry.npmmirror.com/vue-eslint-parser/9.3.1
     name: vue-eslint-parser
-    version: 9.3.0
+    version: 9.3.1
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       debug: registry.npmmirror.com/debug/4.3.4
       eslint: registry.npmmirror.com/eslint/8.41.0
-      eslint-scope: registry.npmmirror.com/eslint-scope/7.2.0
-      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.4.1
-      espree: registry.npmmirror.com/espree/9.5.2
+      eslint-scope: registry.npmmirror.com/eslint-scope/7.2.2
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.4.2
+      espree: registry.npmmirror.com/espree/9.6.1
       esquery: registry.npmmirror.com/esquery/1.5.0
       lodash: registry.npmmirror.com/lodash/4.17.21
       semver: registry.npmmirror.com/semver/7.5.4

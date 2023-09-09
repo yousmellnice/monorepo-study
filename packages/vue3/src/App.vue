@@ -14,7 +14,7 @@ const str = 'You did it!'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld :msg="str" :msg="str"/>
+      <HelloWorld :msg="str" />
       <button @click="changeObj">
         change
       </button>
