@@ -29,7 +29,7 @@ const { x, y, style } = useDraggable(el, {
       <h3>
         useDraggable
       </h3>
-      <div ref="el" :style="style" style="position: fixed">
+      <div ref="el" :style="style" class="cursor-pointer" style="position: fixed">
         这是一个可以拖拽的 div {{ style }}
       </div>
     </div>
