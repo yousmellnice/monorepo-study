@@ -1,10 +1,7 @@
+import 'virtual:windi.css'
 import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import { formatNum } from '@packages/utils';
-
-console.log(formatNum(100));
 
 import App from './App.vue'
 import router from './router'
