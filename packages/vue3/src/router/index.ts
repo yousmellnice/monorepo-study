@@ -18,9 +18,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/use',
-      name: 'use',
-      component: () => import('../views/VueUse.vue')
+      path: '/g6',
+      name: 'g6',
+      component: () => import('../views/g6_demo.vue')
     }
   ]
 })

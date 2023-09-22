@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const num = ref(0)
+import FlowComp from '../components/flow_g6/index.vue'
 </script>
 
 <template>
   <div class="text-30px">
-    vue use
-    {{ num }}
+    G6 demo
+    <FlowComp />
   </div>
 </template>

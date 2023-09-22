@@ -7,7 +7,7 @@ watch(activeElement, (el) => {
 })
 const el = ref<HTMLElement | null>(null)
 const { x, y, style } = useDraggable(el, {
-  initialValue: { x: 10, y: 200 },
+  initialValue: { x: 400, y: 300 },
 })
 </script>
 
