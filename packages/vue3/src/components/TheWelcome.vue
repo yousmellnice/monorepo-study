@@ -7,7 +7,7 @@ watch(activeElement, (el) => {
 })
 const el = ref<HTMLElement | null>(null)
 const { x, y, style } = useDraggable(el, {
-  initialValue: { x: 400, y: 300 },
+  initialValue: { x: 500, y: 200 },
 })
 </script>
 
@@ -29,7 +29,7 @@ const { x, y, style } = useDraggable(el, {
       <h3>
         useDraggable
       </h3>
-      <div ref="el" :style="style" class="cursor-pointer" style="position: fixed">
+      <div ref="el" :style="style" class="cursor-pointer" style="position: fixed; color: red">
         这是一个可以拖拽的 div {{ style }}
       </div>
     </div>
